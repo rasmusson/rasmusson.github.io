@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://rasmusson.github.io/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decrypting a SAML Assertion in OpenSAML v3</title>
-      <link>https://rasmusson.github.io/post/decrypting-a-saml-assertion-in-opensaml-v3/</link>
+      <link>https://rasmusson.github.io/2017/05/decrypting-saml-assertion-in-opensaml-v3.html</link>
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rasmusson.github.io/post/decrypting-a-saml-assertion-in-opensaml-v3/</guid>
+      <guid>https://rasmusson.github.io/2017/05/decrypting-saml-assertion-in-opensaml-v3.html</guid>
       <description>
         
           &lt;p&gt;As you probably should know at this point, the SAML Assertion contains the description of a authenticated user and how it was authenticated. The assertion is generally signed to prevent manipulation but there are also cases where you would want to encrypt the assertion to prevent someone to see the information within. For example the assertion can be used to communicate personal information about the user such as social security number and address.&lt;/p&gt;
@@ -55,7 +55,7 @@ The symmetric key is generated during encryption and used to encrypt the actual 
 &lt;a href=&#34;https://payhip.com/b/41Tw&#34;&gt;&lt;div class=&#34;book-ad-grid&#34;&gt;
 
   &lt;div class=&#34;text&#34;&gt; &lt;p&gt;Want to quickly learn and understand OpenSAML?&lt;/p&gt;
-&lt;p&gt;Have a look on my book &lt;em&gt;A guide to OpenSAML&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;Have a look on the book &lt;em&gt;A guide to OpenSAML&lt;/em&gt;!&lt;/p&gt;
 &lt;/div&gt;
   
   

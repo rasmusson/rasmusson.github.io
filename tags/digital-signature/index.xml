@@ -10,14 +10,14 @@
     <lastBuildDate>Wed, 10 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://rasmusson.github.io/tags/digital-signature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signing and Sending AuthnRequests in OpenSAML V3</title>
-      <link>https://rasmusson.github.io/post/signing-and-sending-authnrequests-in-opensaml-v3/</link>
+      <link>https://rasmusson.github.io/2016/08/signing-and-sending-authnrequests-in.html</link>
       <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://rasmusson.github.io/post/signing-and-sending-authnrequests-in-opensaml-v3/</guid>
+      <guid>https://rasmusson.github.io/2016/08/signing-and-sending-authnrequests-in.html</guid>
       <description>
         
           &lt;p&gt;Signing and sending a AuthnRequest in OpenSAML V3 is fortunately not that different from how it was done in OpenSAML V2.&lt;/p&gt;
-&lt;p&gt;As described in &lt;a href=&#34;https://rasmusson.github.io/post/redirect-with-authnrequest/&#34;&gt;this post on AuthnRequests OpenSAML V2&lt;/a&gt;, the AuthnRequest is the SAML request that starts a typical SSO authentication process. This is the SP requesting the IDP to authenticate a user.&lt;/p&gt;
+&lt;p&gt;As described in &lt;a href=&#34;https://rasmusson.github.io/2011/01/redirect-with-authnrequest.html&#34;&gt;this post on AuthnRequests OpenSAML V2&lt;/a&gt;, the AuthnRequest is the SAML request that starts a typical SSO authentication process. This is the SP requesting the IDP to authenticate a user.&lt;/p&gt;
 &lt;p&gt;As in V2 the &lt;code&gt;HTTPRedirectDeflateEncoder&lt;/code&gt; is used, the main difference lays in the message context.&lt;/p&gt;
 &lt;p&gt;One of the major changes between V2 and V3 is the message contexts. In version 2, the message contexts where basically one object containing general properties about the message and its destination. In V3 the message context concept has been expanded to be more flexible contain more information. In the new context structure there is a context object per purpose.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;https://rasmusson.github.io/book&#34;&gt;my book A Guide to OpenSAML V3&lt;/a&gt; I cover the use of the new message contexts in detail.&lt;/p&gt;
@@ -37,7 +37,7 @@
 &lt;a href=&#34;https://payhip.com/b/41Tw&#34;&gt;&lt;div class=&#34;book-ad-grid&#34;&gt;
 
   &lt;div class=&#34;text&#34;&gt; &lt;p&gt;Want to quickly learn and understand OpenSAML?&lt;/p&gt;
-&lt;p&gt;Have a look on my book &lt;em&gt;A guide to OpenSAML&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;Have a look on the book &lt;em&gt;A guide to OpenSAML&lt;/em&gt;!&lt;/p&gt;
 &lt;/div&gt;
   
   
